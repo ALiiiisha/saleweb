@@ -1,0 +1,152 @@
+.container {
+  border: 4px solid black;
+  width: 850px;
+}
+* body {
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-family: sans-serif;
+}
+h1 {
+  position: relative;
+  text-align: center;
+  background-color: lightgray;
+  text-transform: uppercase;
+
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-top: 0px;
+  margin-bottom: -5px;
+  border-width: 100%;
+  font-size: 22px;
+}
+h2 {
+  margin-top: 25px;
+}
+#price {
+  font-weight: bolder;
+  font-size: 23px;
+}
+#image {
+  width: 250px;
+  height: 250px;
+}
+button {
+  color: black;
+  color: white;
+  background-color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  margin-top: -4px;
+}
+#free {
+  text-transform: uppercase;
+  color: gray;
+  margin-top: 2px;
+  font-size: small;
+  font-weight: bold;
+}
+h2 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 18px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: grab;
+}
+li {
+  list-style: square;
+  padding-top: 4px;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+ul {
+  padding-left: 5px;
+  padding-right: 15px;
+  margin-top: 5px;
+}
+#link {
+  display: inline-block;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+p {
+  margin-top: -5px;
+  padding-left: 5px;
+}
+h1::before {
+  content: "sale";
+  position: absolute;
+  top: -15px;
+  left: -25px;
+  background-color: red;
+  width: 50px;
+  color: white;
+  font-size: medium;
+  text-transform: lowercase;
+  font-style: italic;
+  letter-spacing: 2px;
+  padding: 7px, 7px;
+}
+
+.color {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 5px;
+  margin-top: 30px;
+}
+#div1 {
+  width: 20px;
+  height: 20px;
+  background-color: plum;
+}
+#div2 {
+  width: 20px;
+  height: 20px;
+  background-color: slateblue;
+}
+#div3 {
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+}
+#div4 {
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+}
+#div5 {
+  width: 20px;
+  height: 20px;
+  background-color: palevioletred;
+}
+#div6 {
+  width: 20px;
+  height: 20px;
+  background-color: wheat;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 250px 1fr;
+  column-gap: 20px;
+}
+h1 {
+  grid-row: 1/4;
+  grid-column: 1/4;
+}
+button {
+  grid-column: 1/-1;
+}
+
+.pricefree {
+  display: flex;
+  gap: 50px;
+  margin-top: 25px;
+}
